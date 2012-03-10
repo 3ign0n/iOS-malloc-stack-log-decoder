@@ -6,7 +6,7 @@ A ruby script to decode iOS malloc stack log
 # How does this work?
 To take a quick look, just type:
 
-    ruby iOS-malloc-stack-log-decoder stack-logs.PID.AppName.sample.index
+    ruby ios-malloc-stack-log-decoder.rb stack-logs.PID.AppName.sample.index
 
 
 The reason I need this
@@ -42,7 +42,7 @@ Copy the file stack-logs.PID.AppName.index from your device to your Mac.
 You can use tools such as [iExpolorer](http://www.macroplant.com/iexplorer/).
 OK. Now, you're ready. Type the following command on your Mac:
 
-    ruby iOS-malloc-stack-log-decoder stack-logs.PID.AppName.index
+    ruby ios-malloc-stack-log-decoder.rb stack-logs.PID.AppName.index
 
 
 TODO
